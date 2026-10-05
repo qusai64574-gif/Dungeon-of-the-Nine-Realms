@@ -24,11 +24,6 @@ Or open the project in the Godot editor (`project.godot`) and press F5.
 | Left mouse button | Melee slash (arc in front of you, can crit) |
 | Right mouse button | Ranged bolt |
 | `Esc` | **Pause menu** (resume / save / settings / quit to menu) |
-| `\` | **Open / close the Admin Console** |
-
-> **The admin panel is undocumented in-game.** Nothing in the HUD or the tutorial
-> toast mentions the backslash key — it's a secret. The only places it appears are
-> this README and the console's own System tab. `\` toggles it open *and* closed.
 
 ---
 
