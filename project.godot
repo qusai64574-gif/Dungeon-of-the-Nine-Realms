@@ -1,0 +1,56 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Dungeon of the Nine Realms"
+config/description="A 2D roguelike dungeon crawler. Descend, slay, and survive."
+config/version="1.0.0"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+InputSetup="*res://scripts/autoload/input_setup.gd"
+EventBus="*res://scripts/autoload/event_bus.gd"
+GameState="*res://scripts/autoload/game_state.gd"
+SaveManager="*res://scripts/autoload/save_manager.gd"
+DevCapture="*res://scripts/dev_capture.gd"
+
+[debug]
+
+gdscript/warnings/treat_warnings_as_errors=false
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[gui]
+
+theme/default_font_antialiasing=0
+
+[physics]
+
+2d/default_gravity=0.0
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.031, 0.027, 0.047, 1)
+2d/snap/snap_2d_transforms_to_pixel=true
+2d/snap/snap_2d_vertices_to_pixel=true

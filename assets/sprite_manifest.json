@@ -1,0 +1,997 @@
+{
+ "blue_knight/blue_knight": {
+  "png": "character/blue_knight/blue_knight.png",
+  "anims": {
+   "attack": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 3,
+    "fps": 100.0,
+    "loop": true
+   },
+   "die": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 16,
+    "rows": 1,
+    "cols": 1,
+    "fps": 100.0,
+    "loop": true
+   },
+   "hit": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 44,
+    "rows": 1,
+    "cols": 1,
+    "fps": 100.0,
+    "loop": true
+   },
+   "idle_left": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 72,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "idle_right": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 100,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run_left": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 128,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run_right": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 156,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "char03/char03": {
+  "png": "character/char03/char03.png",
+  "anims": {
+   "idle_down": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 4,
+    "fps": 33.333333333333336,
+    "loop": true
+   },
+   "idle_left": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 32,
+    "rows": 1,
+    "cols": 4,
+    "fps": 33.333333333333336,
+    "loop": true
+   },
+   "idle_right": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 64,
+    "rows": 1,
+    "cols": 4,
+    "fps": 33.333333333333336,
+    "loop": true
+   },
+   "idle_up": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 96,
+    "rows": 1,
+    "cols": 4,
+    "fps": 33.333333333333336,
+    "loop": true
+   },
+   "run_down": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 128,
+    "rows": 1,
+    "cols": 4,
+    "fps": 66.66666666666667,
+    "loop": true
+   },
+   "run_left": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 160,
+    "rows": 1,
+    "cols": 4,
+    "fps": 66.66666666666667,
+    "loop": true
+   },
+   "run_right": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 192,
+    "rows": 1,
+    "cols": 4,
+    "fps": 66.66666666666667,
+    "loop": true
+   },
+   "run_up": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 224,
+    "rows": 1,
+    "cols": 4,
+    "fps": 66.66666666666667,
+    "loop": true
+   },
+   "die": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 256,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": false
+   }
+  }
+ },
+ "knight/knight": {
+  "png": "character/knight/knight.png",
+  "anims": {
+   "die_down": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 5,
+    "fps": 66.66666666666667,
+    "loop": false
+   },
+   "die_left": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 28,
+    "rows": 1,
+    "cols": 4,
+    "fps": 66.66666666666667,
+    "loop": false
+   },
+   "die_right": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 56,
+    "rows": 1,
+    "cols": 4,
+    "fps": 66.66666666666667,
+    "loop": false
+   },
+   "die_up": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 84,
+    "rows": 1,
+    "cols": 5,
+    "fps": 66.66666666666667,
+    "loop": false
+   },
+   "fight_down": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 112,
+    "rows": 1,
+    "cols": 2,
+    "fps": 100.0,
+    "loop": true
+   },
+   "fight_left": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 140,
+    "rows": 1,
+    "cols": 3,
+    "fps": 100.0,
+    "loop": true
+   },
+   "fight_right": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 168,
+    "rows": 1,
+    "cols": 3,
+    "fps": 100.0,
+    "loop": true
+   },
+   "fight_up": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 196,
+    "rows": 1,
+    "cols": 2,
+    "fps": 100.0,
+    "loop": true
+   },
+   "idle_down": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 224,
+    "rows": 1,
+    "cols": 2,
+    "fps": 100.0,
+    "loop": true
+   },
+   "idle_left": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 252,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "idle_right": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 280,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "idle_up": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 308,
+    "rows": 1,
+    "cols": 2,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run_down": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 336,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run_left": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 364,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run_right": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 392,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run_up": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 420,
+    "rows": 1,
+    "cols": 2,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/big_daemon/big_daemon": {
+  "png": "character/monster/big_daemon/big_daemon.png",
+  "anims": {
+   "idle": {
+    "sw": 32,
+    "sh": 36,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run": {
+    "sw": 32,
+    "sh": 36,
+    "x": 0,
+    "y": 36,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/big_zombie/big_zombie": {
+  "png": "character/monster/big_zombie/big_zombie.png",
+  "anims": {
+   "idle": {
+    "sw": 32,
+    "sh": 36,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run": {
+    "sw": 32,
+    "sh": 36,
+    "x": 0,
+    "y": 36,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/chort/chort": {
+  "png": "character/monster/chort/chort.png",
+  "anims": {
+   "idle": {
+    "sw": 16,
+    "sh": 24,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run": {
+    "sw": 16,
+    "sh": 24,
+    "x": 0,
+    "y": 24,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/doc/doc": {
+  "png": "character/monster/doc/doc.png",
+  "anims": {
+   "idle": {
+    "sw": 16,
+    "sh": 23,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run": {
+    "sw": 16,
+    "sh": 23,
+    "x": 0,
+    "y": 23,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/elemental_goo/elemental_goo": {
+  "png": "character/monster/elemental_goo/elemental_goo.png",
+  "anims": {
+   "idle": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 1,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 16,
+    "rows": 1,
+    "cols": 1,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/elemental_goo_small/elemental_goo_small": {
+  "png": "character/monster/elemental_goo_small/elemental_goo_small.png",
+  "anims": {
+   "idle": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 1,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 16,
+    "rows": 1,
+    "cols": 1,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/goblin/goblin": {
+  "png": "character/monster/goblin/goblin.png",
+  "anims": {
+   "idle": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 16,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/ice_zombie/ice_zombie": {
+  "png": "character/monster/ice_zombie/ice_zombie.png",
+  "anims": {
+   "idle": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/imp/imp": {
+  "png": "character/monster/imp/imp.png",
+  "anims": {
+   "idle": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 16,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/necromancer/necromancer": {
+  "png": "character/monster/necromancer/necromancer.png",
+  "anims": {
+   "idle": {
+    "sw": 16,
+    "sh": 23,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 1,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run": {
+    "sw": 16,
+    "sh": 23,
+    "x": 0,
+    "y": 23,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/ogre/ogre": {
+  "png": "character/monster/ogre/ogre.png",
+  "anims": {
+   "idle": {
+    "sw": 32,
+    "sh": 36,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run": {
+    "sw": 32,
+    "sh": 36,
+    "x": 0,
+    "y": 36,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/orc_shaman/orc_shaman": {
+  "png": "character/monster/orc_shaman/orc_shaman.png",
+  "anims": {
+   "idle": {
+    "sw": 16,
+    "sh": 23,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run": {
+    "sw": 16,
+    "sh": 23,
+    "x": 0,
+    "y": 23,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/orc_warrior/orc_warrior": {
+  "png": "character/monster/orc_warrior/orc_warrior.png",
+  "anims": {
+   "idle": {
+    "sw": 16,
+    "sh": 23,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run": {
+    "sw": 16,
+    "sh": 23,
+    "x": 0,
+    "y": 23,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/pumpkin_dude/pumpkin_dude": {
+  "png": "character/monster/pumpkin_dude/pumpkin_dude.png",
+  "anims": {
+   "idle": {
+    "sw": 16,
+    "sh": 23,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run": {
+    "sw": 16,
+    "sh": 23,
+    "x": 0,
+    "y": 23,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "monster/zombie/zombie": {
+  "png": "character/monster/zombie/zombie.png",
+  "anims": {
+   "idle": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "roboter_cleaner/roboter_cleaner": {
+  "png": "character/roboter_cleaner/roboter_cleaner.png",
+  "anims": {
+   "idle_down": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 1,
+    "fps": 100.0,
+    "loop": true
+   },
+   "idle_left": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 16,
+    "rows": 1,
+    "cols": 1,
+    "fps": 100.0,
+    "loop": true
+   },
+   "idle_right": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 32,
+    "rows": 1,
+    "cols": 1,
+    "fps": 100.0,
+    "loop": true
+   },
+   "idle_up": {
+    "sw": 16,
+    "sh": 16,
+    "x": 0,
+    "y": 48,
+    "rows": 1,
+    "cols": 1,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run_down": {
+    "sw": 20,
+    "sh": 20,
+    "x": 0,
+    "y": 64,
+    "rows": 1,
+    "cols": 8,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run_left": {
+    "sw": 20,
+    "sh": 20,
+    "x": 0,
+    "y": 84,
+    "rows": 1,
+    "cols": 8,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run_right": {
+    "sw": 20,
+    "sh": 20,
+    "x": 0,
+    "y": 104,
+    "rows": 1,
+    "cols": 8,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run_up": {
+    "sw": 20,
+    "sh": 20,
+    "x": 0,
+    "y": 124,
+    "rows": 1,
+    "cols": 8,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ },
+ "rogue/rogue": {
+  "png": "character/rogue/rogue.png",
+  "anims": {
+   "die": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 128,
+    "rows": 1,
+    "cols": 4,
+    "fps": 50.0,
+    "loop": true
+   },
+   "idle_down": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 4,
+    "fps": 33.333333333333336,
+    "loop": true
+   },
+   "idle_left": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 32,
+    "rows": 1,
+    "cols": 4,
+    "fps": 33.333333333333336,
+    "loop": true
+   },
+   "idle_right": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 64,
+    "rows": 1,
+    "cols": 4,
+    "fps": 33.333333333333336,
+    "loop": true
+   },
+   "idle_up": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 96,
+    "rows": 1,
+    "cols": 4,
+    "fps": 33.333333333333336,
+    "loop": true
+   },
+   "run_down": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 160,
+    "rows": 1,
+    "cols": 4,
+    "fps": 66.66666666666667,
+    "loop": true
+   },
+   "run_left": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 192,
+    "rows": 1,
+    "cols": 4,
+    "fps": 66.66666666666667,
+    "loop": true
+   },
+   "run_right": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 224,
+    "rows": 1,
+    "cols": 4,
+    "fps": 66.66666666666667,
+    "loop": true
+   },
+   "run_up": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 256,
+    "rows": 1,
+    "cols": 4,
+    "fps": 66.66666666666667,
+    "loop": true
+   },
+   "sword_down": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 288,
+    "rows": 1,
+    "cols": 4,
+    "fps": 33.333333333333336,
+    "loop": true
+   },
+   "sword_left": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 320,
+    "rows": 1,
+    "cols": 4,
+    "fps": 33.333333333333336,
+    "loop": true
+   },
+   "sword_right": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 352,
+    "rows": 1,
+    "cols": 4,
+    "fps": 33.333333333333336,
+    "loop": true
+   },
+   "sword_up": {
+    "sw": 32,
+    "sh": 32,
+    "x": 0,
+    "y": 384,
+    "rows": 1,
+    "cols": 4,
+    "fps": 33.333333333333336,
+    "loop": true
+   }
+  }
+ },
+ "wizard/wizard": {
+  "png": "character/wizard/wizard.png",
+  "anims": {
+   "idle_down": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 0,
+    "rows": 1,
+    "cols": 2,
+    "fps": 50.0,
+    "loop": true
+   },
+   "idle_left": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 56,
+    "rows": 1,
+    "cols": 4,
+    "fps": 33.333333333333336,
+    "loop": true
+   },
+   "idle_right": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 84,
+    "rows": 1,
+    "cols": 4,
+    "fps": 33.333333333333336,
+    "loop": true
+   },
+   "idle_up": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 112,
+    "rows": 1,
+    "cols": 3,
+    "fps": 33.333333333333336,
+    "loop": true
+   },
+   "run_down": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 28,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run_left": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 56,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run_right": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 84,
+    "rows": 1,
+    "cols": 4,
+    "fps": 100.0,
+    "loop": true
+   },
+   "run_up": {
+    "sw": 16,
+    "sh": 28,
+    "x": 0,
+    "y": 112,
+    "rows": 1,
+    "cols": 3,
+    "fps": 100.0,
+    "loop": true
+   }
+  }
+ }
+}
